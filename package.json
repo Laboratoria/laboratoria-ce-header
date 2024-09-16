@@ -14,8 +14,8 @@
     "test": "npx playwright test"
   },
   "devDependencies": {
-    "@playwright/test": "^1.24.2",
-    "vite": "^3.0.0"
+    "@playwright/test": "^1.47.1",
+    "vite": "^5.4.6"
   },
   "files": [
     "dist"
