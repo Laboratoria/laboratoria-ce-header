@@ -160,7 +160,6 @@ header nav select {
   }
 
   header.opened nav button {
-    width: 200px;
     height: 50px;
     overflow: hidden;
   }

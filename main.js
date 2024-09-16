@@ -1,4 +1,4 @@
-import style from './style.css';
+import style from './style.css?inline';
 
 class LaboratoriaHeader extends HTMLElement {
   constructor() {
@@ -72,6 +72,7 @@ class LaboratoriaHeader extends HTMLElement {
 
 
     const buttonClone = buttonElement.cloneNode(true);
+    buttonClone.onclick = () => window.location.href = buttonLink;
     navElement.appendChild(buttonClone);
 
 
